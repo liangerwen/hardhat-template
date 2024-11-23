@@ -3,6 +3,8 @@ import "@nomicfoundation/hardhat-ignition-ethers";
 import "@nomicfoundation/hardhat-toolbox";
 import "@nomicfoundation/hardhat-verify";
 import "hardhat-gas-reporter";
+import "@nomiclabs/hardhat-waffle";
+import "hardhat-contract-sizer";
 import "solidity-coverage";
 import "dotenv/config";
 
